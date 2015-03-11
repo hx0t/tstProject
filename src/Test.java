@@ -11,7 +11,7 @@ public class Test {
         //Передаём в конструктор имя порта
         serialPort = new SerialPort("COM1");
         try {
-            //Открываем порт
+            
             serialPort.openPort();
             //Выставляем параметры
             serialPort.setParams(SerialPort.BAUDRATE_9600,
